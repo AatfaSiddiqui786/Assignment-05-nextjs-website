@@ -1,9 +1,8 @@
 import React from "react";
-import { CiHeart } from "react-icons/ci";
 import { IoIosSearch } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
 import { RiContactsLine } from "react-icons/ri";
-
+import { FaHeart } from 'react-icons/fa';  // FontAwesome icon
 function Header() {
   return (
     <div className="bg-[#A29875] h-auto w-full text-[#FFFFFF] flex flex-col md:flex-row justify-between items-center px-4 md:px-9 py-4 space-y-4 md:space-y-0">
@@ -24,7 +23,7 @@ function Header() {
 
       {/* Icons */}
       <div className="flex justify-center space-x-6 items-center mt-2 md:mt-0">
-        <CiHeart className="text-3xl md:text-4xl text-white" />
+        <FaHeart className="text-3xl md:text-4xl text-white" />
         <RiContactsLine className="text-3xl md:text-4xl text-white" />
         <IoCartOutline className="text-3xl md:text-4xl text-white" />
       </div>
